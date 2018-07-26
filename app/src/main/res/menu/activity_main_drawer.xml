@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/write"
+            android:title="글쓰기"/>
+        <item
+            android:id="@+id/major1"
+            android:title="@string/major1" />
+        <item
+            android:id="@+id/major2"
+            android:title="@string/major2" />
+        <item
+            android:id="@+id/major3"
+            android:title="@string/major3" />
+        <item
+            android:id="@+id/major4"
+            android:title="@string/major4" />
+        <item
+            android:id="@+id/major5"
+            android:title="@string/major5" />
+    </group>
+
+    <item android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/Logout"
+                android:title="@string/Logout" />
+            <item
+                android:id="@+id/Search"
+                android:title="@string/Search" />
+        </menu>
+    </item>
+
+</menu>
